@@ -1,4 +1,5 @@
- import Navbar from '@/components/Navbar'
+ import CleanlinessFeature from '@/components/CleanlinessFeature'
+import Navbar from '@/components/Navbar'
 import Slider from '@/components/Slider'
 import WholeshellRetails from '@/components/WholeshellRetails'
 import React from 'react'
@@ -9,6 +10,7 @@ import React from 'react'
       <Navbar/>
       <Slider/>
       <WholeshellRetails/>
+      <CleanlinessFeature/>
      </div>
    )
  }
