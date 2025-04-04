@@ -23,7 +23,7 @@ const CorporateAndBuilding = () => {
                     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
                         <div className="relative w-full h-48">
                             <Image
-                                src="/images/corporateImages.avif"
+                                src="https://img.freepik.com/premium-photo/business-meeting-working-room-office-building_105762-1736.jpg"
                                 alt="Corporate Office"
                                 fill
                                 className="object-cover rounded-t-xl"
@@ -40,7 +40,7 @@ const CorporateAndBuilding = () => {
                     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
                         <div className="relative w-full h-48">
                             <Image
-                                src="/images/mall.jpg"
+                                src="https://media.istockphoto.com/id/93495322/photo/shopping-hall-motion-blur.jpg?s=612x612&w=0&k=20&c=F6X-vxObX6j4b2exAw9LyPFMzm_ftVXhJtw7-Uhwsv0="
                                 alt="Shopping Mall"
                                 fill
                                 className="object-cover rounded-t-xl"
@@ -57,7 +57,7 @@ const CorporateAndBuilding = () => {
                     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
                         <div className="relative w-full h-48">
                             <Image
-                                src="/images/hospital.jpeg"
+                                src="https://t3.ftcdn.net/jpg/02/96/74/64/360_F_296746476_F0wDElEXSb0Rd1tyDnsCBLVBHGAsJm3O.jpg"
                                 alt="Hospital"
                                 fill
                                 className="object-cover rounded-t-xl"
