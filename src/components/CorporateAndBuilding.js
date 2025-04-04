@@ -9,7 +9,7 @@ const CorporateAndBuilding = () => {
             <div className="max-w-7xl mx-auto text-center space-y-8">
                 {/* Heading */}
                 <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight mb-6">
-                    Premium Cleaning Solutions for Corporate & Building Facilities
+                    Premium Cleaning Solutions for Corporate &amp; Building Facilities
                 </h1>
 
                 {/* Main Content */}
@@ -66,7 +66,7 @@ const CorporateAndBuilding = () => {
                         </div>
                         <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Comprehensive Coverage</h3>
                         <p className="text-gray-700">
-                            Whether it's a corporate office, shopping mall, or healthcare facility, we have the perfect solution to meet your cleaning requirements.
+                            Whether it&apos;s a corporate office, shopping mall, or healthcare facility, we have the perfect solution to meet your cleaning requirements.
                         </p>
                     </div>
                 </div>
