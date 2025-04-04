@@ -3,6 +3,7 @@ import CorporateAndBuilding from '@/components/CorporateAndBuilding'
 import Navbar from '@/components/Navbar'
 import Slider from '@/components/Slider'
 import WholeshellRetails from '@/components/WholeshellRetails'
+import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
  
  const page = () => {
@@ -13,6 +14,7 @@ import React from 'react'
       <WholeshellRetails/>
       <CleanlinessFeature/>
       <CorporateAndBuilding/>
+      <WhyChooseUs/>
      </div>
    )
  }
