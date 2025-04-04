@@ -28,7 +28,7 @@ const CleanlinessFeature = () => {
     },
     {
       image: 'https://images.pexels.com/photos/4108714/pexels-photo-4108714.jpeg',
-      name: 'Air Purifier & Freshener',
+      name: 'Air Purifier &amp; Freshener', // Fixed ampersand encoding
       description: 'Removes airborne bacteria and odors for a fresher environment.',
       features: ['HEPA filtration', 'Aromatherapy compatible', 'Low energy consumption'],
       link: '#',
@@ -44,13 +44,15 @@ const CleanlinessFeature = () => {
         {products.map((product, index) => (
           <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
             {/* Product Image */}
-            <Image 
-  src={product.image} 
-  alt={product.name} 
-  width={500}  // Add width
-  height={300} // Add height
-  className="w-full h-72 object-cover p-5"
-/>
+            <div className="relative w-full h-72">
+              <Image 
+                src={product.image} 
+                alt={product.name} 
+                fill
+                className="object-cover p-5"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
             <div className="p-6">
               {/* Product Title */}
               <h2 className="text-2xl font-bold text-gray-800">{product.name}</h2>
@@ -70,8 +72,10 @@ const CleanlinessFeature = () => {
               </ul>
 
               {/* Call to Action Button */}
-              <Link href={product.link} className="inline-block mt-4 bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors duration-300">
-                Learn More
+              <Link href={product.link} legacyBehavior>
+                <a className="inline-block mt-4 bg-blue-500 text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+                  Learn More
+                </a>
               </Link>
             </div>
           </div>
