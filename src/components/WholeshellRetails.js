@@ -9,18 +9,15 @@ const WholeshellRetails = () => {
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Heading */}
         <h1 className="text-4xl md:text-4xl font-bold text-black text-center leading-tight mb-6">
-  Wholesale &amp; Retail Chemicals at Best Prices
-</h1>
-
-
+          Wholesale &amp; Retail Chemicals at Best Prices
+        </h1>
 
         {/* Main Content */}
         <div className="text-lg mx-w-4xl text-gray-950 mb-6 leading-relaxed text-center md:text-center">
-        <span style={{ color: 'green' }} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
-
+          <span style={{ color: 'green' }} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
 
           <p>
-            Whether you're stocking your store or supplying your business, our eco-friendly solutions have you covered.
+            Whether you&apos;re stocking your store or supplying your business, our eco-friendly solutions have you covered.
           </p>
           <p>
             We aim to make cleaning easier, healthier, and more sustainable!
@@ -32,14 +29,16 @@ const WholeshellRetails = () => {
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
-                src="/images/professional-cleaning-service2-min.jpg" // Ensure path is correct
-                alt="High-Quality Products"
-                className="mb-4 rounded-md w-full h-full object-cover"
-                width={400}
-                height={250}
-              />
-              <h3 className="text-xl font-semibold text-black">High-Quality Products</h3>
+              <div className="relative w-full h-60">
+                <Image
+                  src="/images/professional-cleaning-service2-min.jpg"
+                  alt="High-Quality Products"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">High-Quality Products</h3>
             </div>
             <p className="text-gray-700">
               We provide high-quality, eco-friendly cleaning products that are effective and safe for use in various environments.
@@ -49,14 +48,16 @@ const WholeshellRetails = () => {
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
-                src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg" // External image, ensure correct URL
-                alt="Competitive Prices"
-                className="mb-4 rounded-md w-full h-full object-cover"
-                width={400}
-                height={250}
-              />
-              <h3 className="text-xl font-semibold text-black">Competitive Prices</h3>
+              <div className="relative w-full h-60">
+                <Image
+                  src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg"
+                  alt="Competitive Prices"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Competitive Prices</h3>
             </div>
             <p className="text-gray-700">
               Our wholesale prices are designed to maximize your profit margins, helping you stay competitive in the market.
@@ -66,31 +67,35 @@ const WholeshellRetails = () => {
           {/* Card 3 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
-                src="/images/client-receiving.jpg" // Ensure path is correct
-                alt="Flexible Orders"
-                className="mb-4 rounded-md w-full h-full object-cover"
-                width={400}
-                height={250}
-              />
-              <h3 className="text-xl font-semibold text-black">Flexible Orders</h3>
+              <div className="relative w-full h-60">
+                <Image
+                  src="/images/client-receiving.jpg"
+                  alt="Flexible Orders"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Flexible Orders</h3>
             </div>
             <p className="text-gray-700">
-              We offer flexible order quantities to suit your business needs, whether you're ordering small or large volumes.
+              We offer flexible order quantities to suit your business needs, whether you&apos;re ordering small or large volumes.
             </p>
           </div>
 
           {/* Card 4 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
-                src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800" // External image, ensure correct URL
-                alt="Fast Delivery"
-                className="mb-4 rounded-md w-full h-full object-cover"
-                width={400}
-                height={250}
-              />
-              <h3 className="text-xl font-semibold text-black">Fast & Reliable Delivery</h3>
+              <div className="relative w-full h-60">
+                <Image
+                  src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg"
+                  alt="Fast Delivery"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Fast & Reliable Delivery</h3>
             </div>
             <p className="text-gray-700">
               Count on us for fast and reliable delivery, ensuring you always stay stocked and ready to meet customer demands.
@@ -100,14 +105,16 @@ const WholeshellRetails = () => {
           {/* Card 5 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
-                src="/images/supports.jpg" // Ensure path is correct
-                alt="Customer Support"
-                className="mb-4 rounded-md w-full h-full object-cover"
-                width={400}
-                height={250}
-              />
-              <h3 className="text-xl font-semibold text-black">Customer Support</h3>
+              <div className="relative w-full h-60">
+                <Image
+                  src="/images/supports.jpg"
+                  alt="Customer Support"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Customer Support</h3>
             </div>
             <p className="text-gray-700">
               Our dedicated customer support team is always available to help with any queries or specific requirements you have.
@@ -117,14 +124,16 @@ const WholeshellRetails = () => {
           {/* Card 6 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
-                src="/images/discount.jpg" // Ensure path is correct
-                alt="Exclusive Offers"
-                className="mb-4 rounded-md w-full h-60 object-cover"
-                width={400}
-                height={250}
-              />
-              <h3 className="text-xl font-semibold text-black">Exclusive Offers</h3>
+              <div className="relative w-full h-60">
+                <Image
+                  src="/images/discount.jpg"
+                  alt="Exclusive Offers"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Exclusive Offers</h3>
             </div>
             <p className="text-gray-700">
               We offer exclusive deals and discounts for bulk orders, making it more affordable to stock your inventory.
@@ -134,10 +143,10 @@ const WholeshellRetails = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-8">
-          <Link href="/contact">
-            <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
+          <Link href="/contact" legacyBehavior>
+            <a className="inline-block px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300">
               Contact Us for Bulk Orders
-            </button>
+            </a>
           </Link>
         </div>
       </div>
