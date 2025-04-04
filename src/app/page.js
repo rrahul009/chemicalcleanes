@@ -1,6 +1,7 @@
  import CleanlinessFeature from '@/components/CleanlinessFeature'
 import CorporateAndBuilding from '@/components/CorporateAndBuilding'
 import Navbar from '@/components/Navbar'
+import ProductDeal from '@/components/ProductDeal'
 import Slider from '@/components/Slider'
 import WholeshellRetails from '@/components/WholeshellRetails'
 import WhyChooseUs from '@/components/WhyChooseUs'
@@ -15,6 +16,7 @@ import React from 'react'
       <CleanlinessFeature/>
       <CorporateAndBuilding/>
       <WhyChooseUs/>
+      <ProductDeal/>
      </div>
    )
  }
