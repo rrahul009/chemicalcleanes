@@ -26,6 +26,62 @@ const WholeshellRetails = () => {
 
         {/* Benefits and Details */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Card 4 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="flex flex-col items-center mb-4">
+              <div className="relative w-full h-60">
+                <Image
+                  src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg"
+                  alt="Fast Delivery"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Fast & Reliable Delivery</h3>
+            </div>
+            <p className="text-gray-700">
+              Count on us for fast and reliable delivery, ensuring you always stay stocked and ready to meet customer demands.
+            </p>
+          </div>
+
+          {/* Card 5 */}
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="flex flex-col items-center mb-4">
+              <div className="relative w-full h-60">
+                <Image
+                  src="https://img.freepik.com/free-photo/businessman-talking-phone_23-2148738347.jpg?t=st=1743774271~exp=1743777871~hmac=cd2f669b6db533aef45654c9fc5722a4828c2b029d6dc3d63324b4db37e797ef&w=2000"
+                  alt="Customer Support"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Customer Support</h3>
+            </div>
+            <p className="text-gray-700">
+              Our dedicated customer support team is always available to help with any queries or specific requirements you have.
+            </p>
+          </div>
+
+          {/* Card 6 */}
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="flex flex-col items-center mb-4">
+              <div className="relative w-full h-60">
+                <Image
+                  src="https://img.freepik.com/premium-vector/exclusive-offer-banner-design_686319-748.jpg?semt=ais_hybrid"
+                  alt="Exclusive Offers"
+                  fill
+                  className="rounded-md object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4">Exclusive Offers</h3>
+            </div>
+            <p className="text-gray-700">
+              We offer exclusive deals and discounts for bulk orders, making it more affordable to stock your inventory.
+            </p>
+          </div>
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
@@ -83,62 +139,7 @@ const WholeshellRetails = () => {
             </p>
           </div>
 
-          {/* Card 4 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
-            <div className="flex flex-col items-center mb-4">
-              <div className="relative w-full h-60">
-                <Image
-                  src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg"
-                  alt="Fast Delivery"
-                  fill
-                  className="rounded-md object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-black mt-4">Fast & Reliable Delivery</h3>
-            </div>
-            <p className="text-gray-700">
-              Count on us for fast and reliable delivery, ensuring you always stay stocked and ready to meet customer demands.
-            </p>
-          </div>
-
-          {/* Card 5 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
-            <div className="flex flex-col items-center mb-4">
-              <div className="relative w-full h-60">
-                <Image
-                  src="https://img.freepik.com/free-photo/businessman-talking-phone_23-2148738347.jpg?t=st=1743774271~exp=1743777871~hmac=cd2f669b6db533aef45654c9fc5722a4828c2b029d6dc3d63324b4db37e797ef&w=2000"
-                  alt="Customer Support"
-                  fill
-                  className="rounded-md object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-black mt-4">Customer Support</h3>
-            </div>
-            <p className="text-gray-700">
-              Our dedicated customer support team is always available to help with any queries or specific requirements you have.
-            </p>
-          </div>
-
-          {/* Card 6 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
-            <div className="flex flex-col items-center mb-4">
-              <div className="relative w-full h-60">
-                <Image
-                  src="https://img.freepik.com/premium-vector/exclusive-offer-banner-design_686319-748.jpg?semt=ais_hybrid"
-                  alt="Exclusive Offers"
-                  fill
-                  className="rounded-md object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-black mt-4">Exclusive Offers</h3>
-            </div>
-            <p className="text-gray-700">
-              We offer exclusive deals and discounts for bulk orders, making it more affordable to stock your inventory.
-            </p>
-          </div>
+        
         </div>
 
         {/* Call to Action */}
