@@ -1,6 +1,5 @@
  import CleanlinessFeature from '@/components/CleanlinessFeature'
 import CorporateAndBuilding from '@/components/CorporateAndBuilding'
-import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import ProductDeal from '@/components/ProductDeal'
 import Slider from '@/components/Slider'
@@ -20,7 +19,7 @@ import React from 'react'
       <WhyChooseUs/>
       <ProductDeal/>
       <Testimonial/>
-      <Footer/>
+      
      </div>
    )
  }
