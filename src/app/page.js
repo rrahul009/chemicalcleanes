@@ -1,5 +1,6 @@
  import Navbar from '@/components/Navbar'
 import Slider from '@/components/Slider'
+import WholeshellRetails from '@/components/WholeshellRetails'
 import React from 'react'
  
  const page = () => {
@@ -7,6 +8,7 @@ import React from 'react'
      <div> 
       <Navbar/>
       <Slider/>
+      <WholeshellRetails/>
      </div>
    )
  }
