@@ -1,7 +1,7 @@
  
 import Navbar from '@/components/Navbar';
 import React from 'react';
-import Image from 'next/image'; // Import Image from next/image
+ 
 
 const AboutUs = () => {
   return (
