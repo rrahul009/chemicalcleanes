@@ -29,9 +29,9 @@ const WholeshellRetails = () => {
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <div className="relative w-full h-60">
+              <div className="relative w-full h-90">
                 <Image
-                  src="/images/professional-cleaning-service2-min.jpg"
+                  src="https://img.freepik.com/free-vector/premium-certified-quality-stamp_78370-1800.jpg"
                   alt="High-Quality Products"
                   fill
                   className="rounded-md object-cover"
@@ -48,7 +48,7 @@ const WholeshellRetails = () => {
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <div className="relative w-full h-60">
+              <div className="relative w-full h-90">
                 <Image
                   src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg"
                   alt="Competitive Prices"
@@ -67,9 +67,9 @@ const WholeshellRetails = () => {
           {/* Card 3 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <div className="relative w-full h-60">
+              <div className="relative w-full h-90">
                 <Image
-                  src="/images/client-receiving.jpg"
+                  src="https://img.freepik.com/free-photo/client-receiving-boxes-from-express-delivery_651396-978.jpg?t=st=1743774223~exp=1743777823~hmac=5194f38230ff50bb569012c086f7f8687f3320f39d52985ce0f999ee686a1ce5&w=2000"
                   alt="Flexible Orders"
                   fill
                   className="rounded-md object-cover"
@@ -107,7 +107,7 @@ const WholeshellRetails = () => {
             <div className="flex flex-col items-center mb-4">
               <div className="relative w-full h-60">
                 <Image
-                  src="/images/supports.jpg"
+                  src="https://img.freepik.com/free-photo/businessman-talking-phone_23-2148738347.jpg?t=st=1743774271~exp=1743777871~hmac=cd2f669b6db533aef45654c9fc5722a4828c2b029d6dc3d63324b4db37e797ef&w=2000"
                   alt="Customer Support"
                   fill
                   className="rounded-md object-cover"
@@ -126,7 +126,7 @@ const WholeshellRetails = () => {
             <div className="flex flex-col items-center mb-4">
               <div className="relative w-full h-60">
                 <Image
-                  src="/images/discount.jpg"
+                  src="https://img.freepik.com/premium-vector/exclusive-offer-banner-design_686319-748.jpg?semt=ais_hybrid"
                   alt="Exclusive Offers"
                   fill
                   className="rounded-md object-cover"
