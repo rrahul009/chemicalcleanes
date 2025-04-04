@@ -3,6 +3,7 @@ import CorporateAndBuilding from '@/components/CorporateAndBuilding'
 import Navbar from '@/components/Navbar'
 import ProductDeal from '@/components/ProductDeal'
 import Slider from '@/components/Slider'
+import Testimonial from '@/components/Testimonial'
 import WholeshellRetails from '@/components/WholeshellRetails'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import React from 'react'
@@ -17,6 +18,7 @@ import React from 'react'
       <CorporateAndBuilding/>
       <WhyChooseUs/>
       <ProductDeal/>
+      <Testimonial/>
      </div>
    )
  }
