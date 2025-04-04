@@ -33,13 +33,13 @@ const WholeshellRetails = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-1">
               <h3 className="text-xl font-semibold text-black">High-Quality Products</h3>
-              <Image
+              {/* <Image
                 src="https://img.freepik.com/free-vector/premium-certified-quality-stamp_78370-1800.jpg?t=st=1743767591~exp=1743771191~hmac=8ea784e003d237a6b272ca94ab37ee67af12d53851207b959628185782e4406c&w=1380" // Ensure path is correct
                 alt="High-Quality Products"
                 className="mb-1 rounded-md w-full h-60 object-contain "
                 width={200}
                 height={150}
-              />
+              /> */}
 
             </div>
             <p className="text-gray-700">
@@ -73,14 +73,14 @@ const WholeshellRetails = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
             <h3 className="text-xl font-semibold text-black">Flexible Orders</h3>
-            <Image
+            {/* <Image
                   src="https://img.freepik.com/free-photo/medium-shot-man-carrying-box_23-2148773967.jpg?t=st=1743771508~exp=1743775108~hmac=ddfb23512d73f4255bb95e9d152fc8bb19bd9f2cdcb5db85c2f2fe1b086720d5&w=1800"
                   alt="Competitive Prices"
                   // fill
                   className="mb-4 rounded-md w-full h-60 object-contain "
                   width={200}
                   height={150}
-                />
+                /> */}
      
             </div>
             <p className="text-gray-700">
@@ -91,13 +91,13 @@ const WholeshellRetails = () => {
           {/* Card 4 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image
+              {/* <Image
                 src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800" // External image, ensure correct URL
                 alt="Fast Delivery"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
                 height={250}
-              />
+              /> */}
               <h3 className="text-xl font-semibold text-black">Fast & Reliable Delivery</h3>
             </div>
             <p className="text-gray-700">
@@ -108,13 +108,13 @@ const WholeshellRetails = () => {
           {/* Card 5 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-            <Image
+            {/* <Image
                 src="https://img.freepik.com/free-photo/colleagues-working-together-call-center-office_23-2149256064.jpg?t=st=1743771692~exp=1743775292~hmac=0cbbe6ec651a36aea69fdd14610f5c6a2fd47b6fd66ff34b84d5d27aa056d520&w=2000" // External image, ensure correct URL
                 alt="Fast Delivery"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
                 height={250}
-              />
+              /> */}
               <h3 className="text-xl font-semibold text-black">Customer Support</h3>
             </div>
             <p className="text-gray-700">
@@ -125,13 +125,13 @@ const WholeshellRetails = () => {
           {/* Card 6 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-            <Image
+            {/* <Image
                 src="https://thumbs.dreamstime.com/b/special-offer-star-7527442.jpg" // External image, ensure correct URL
                 alt="Fast Delivery"
                 className="mb-4 rounded-md w-full h-60 object-cover"
                 width={400}
                 height={250}
-              />
+              /> */}
               <h3 className="text-xl font-semibold text-black">Exclusive Offers</h3>
             </div>
             <p className="text-gray-700">
