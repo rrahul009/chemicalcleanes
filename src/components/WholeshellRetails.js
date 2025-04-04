@@ -53,14 +53,14 @@ const WholeshellRetails = () => {
             <div className="flex flex-col items-center mb-4">
               <h3 className="text-xl font-semibold text-black ">Competitive Prices</h3>
               <div className="relative w-full aspect-[4/3]"> {/* 4:3 aspect ratio */}
-                <Image
+                {/* <Image
                   src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg"
                   alt="Competitive Prices"
                   // fill
                   className="mb-4 rounded-md w-full h-60 object-contain "
                   width={200}
                   height={150}
-                />
+                /> */}
               </div>
 
             </div>
